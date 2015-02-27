@@ -1,0 +1,10 @@
+enyo.depends(
+    "leaflet.css",
+    "leaflet.js",
+    "leaflet.plotter.js",
+    "MarkerCluster.css",
+    "MarkerCluster.Default.css",
+    "leaflet.markercluster-src.js",
+    "leaflet-heat.js",
+    "leaflet-button-control.js"
+);

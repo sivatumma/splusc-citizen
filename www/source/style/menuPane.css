@@ -1,0 +1,197 @@
+/* Styles for slider menu and toolbar */
+
+.menu-header, .menu-item {
+    height: 40px;
+    color: #000;
+    padding: 15px 0 0 25px;
+    position: relative;
+    letter-spacing: 0.5px;
+    font-size: 18px;
+}
+.menu-header {
+    width: 100%;
+    font-size: 20px;
+    padding: 17px 0 0 25px;
+}
+.menu-header > *, .menu-item > * {
+    display: inline-block;
+}
+.menupane-menu .menu-header, .menupane-menu .menu-item {
+    padding-right: 60px;
+}
+.menupane-menu-secondary .menu-header, .menupane-menu-secondary .menu-item {
+    padding-left: 76px;
+}
+.menu-header {
+    background: rgb(253, 253, 253, 0.8);
+}
+.menupane-pane {
+    background-color: rgb(192, 192, 192);
+    box-shadow: 0px 0px 5px 6px rgba( 32, 32, 32, 0.5);
+}
+.weatherDataCss, .offers-view, .offerDetails {
+    padding-top: 60px;
+}
+.onyx-grabber {
+    background: url("../../assets/menu-icon.png") no-repeat center;
+    height: 34px;
+}
+.onyx-toolbar, .offerDetailsViewHeader {
+    background: #3bbbf8;
+    border: none;
+    text-align: center;
+    height: 40px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    padding: 10px 4px 10px 4px;
+}
+.offerDetailsViewHeader {
+    height: 60px;
+}
+.cameraMenuDecorator .onyx-button {
+    background-color: transparent;
+    border-color: transparent;
+    height: 23px;
+    box-shadow: none;
+    padding: 0px;
+}
+.cameraMenuDecorator .onyx-button.active, .cameraMenuDecorator .onyx-button.pressed {
+    background-image: url("../../assets/camera-icon.png");
+    background-position: left;
+}
+.cameraPopupContainer .enyo-touch-scroller {
+    min-height: 50px !important;
+}
+.cameraPopupContainer .onyx-contextual-popup-title {
+    display: none;
+}
+.cameraPopupContainer {
+    font-size: 16px;
+    box-shadow: 0 6px 10px rgba(212, 216, 211, 0.8);
+    border: 1px solid #d4d3d8;
+    border-radius: 0px;
+    padding: 0px;
+    color: #000;
+    background: rgba(255, 255, 255, 0.9);
+    margin-top: 16px !important;
+}
+.onyx-contextual-popup.vertical::after {
+    border-bottom: 10px solid #fff;
+}
+.onyx-contextual-popup.vertical.below.left.corner::after {
+    border-right: 10px solid transparent !important;
+    border-top: 0px solid transparent !important;
+}
+.cameraPopupContainer .onyx-contextual-popup-scroller {
+    padding: 15px 0px;
+    min-width: 210px;
+}
+.cameraContainerText {
+    padding: 0px 5px 0px 5px;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+}
+.centerBorder {
+    border-bottom: 1px solid #d4d3d8;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    ;
+}
+.notificationIcon, .cameraIcon, .backButtonArrowIcon {
+    width: 39px;
+    height: 25px !important;
+}
+.notificationIcon {
+    background: url("../../assets/notifications-icon.png") no-repeat;
+    float: left;
+    background-size: contain;
+}
+.cameraIcon {
+    background: url("../../assets/camera-icon.png") no-repeat;
+    background-size: contain;
+}
+.cameraMenuDecorator {
+    float: right;
+}
+.toolbarMenuIcon {
+    float: left;
+}
+.backButtonArrowIcon {
+    background: url("../../assets/back_arrow_icon.png") no-repeat;
+    background-size: contain;
+}
+.menuCloseIcon {
+    background-image: url("../../assets/close.png");
+    float: right;
+    margin-right: 42px;
+    background-size: 100% 100%;
+    width: 24px;
+    height: 24px;
+}
+.rightMenuIcons {
+    float: right;
+    padding-top: 5px;
+}
+.menupane-menu {
+    background: rgba(253, 253, 253, 0.8);
+    transform: translateZ(0);
+    transform: translateZ(0) translateX(0%);
+    left: -112% !important;
+    width: 75%;
+}
+.headerTitle {
+    padding-top: 5px;
+}
+.layersCheckbox {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+}
+.onyx-checkbox {
+    background: url("../../assets/checkbox.png") no-repeat;
+}
+@media (min-width: 360px) and (max-width: 640px) {
+    .menupane-menu {
+        left: -111% !important;
+    }
+}
+@media (min-width: 414px) and (max-width: 736px) {
+    .menupane-menu {
+        left: -87% !important;
+    }
+    .menupane-menu .menu-header {
+        padding-right: 110px;
+    }
+}
+@media (min-width: 375px) and (max-width: 667px) {
+    .menupane-menu {
+        left: -111% !important;
+    }
+}
+@media (min-width: 414px) and (max-width: 736px) and (orientation: landscape) {
+    .menupane-menu {
+        left: -109% !important;
+    }
+}
+@media (min-width: 360px) and (max-width: 640px) and (orientation: landscape) {
+    .menupane-menu {
+        left: -57% !important;
+    }
+}
+@media (min-width: 320px) and (max-width: 568px) and (orientation: landscape) {
+    .menupane-menu {
+        left: -110% !important;
+    }
+}
+@media (min-width: 375px) and (max-width: 667px) and (orientation: landscape) {
+    .menupane-menu {
+        left: -110% !important;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) and (orientation: landscape) {
+    .menupane-menu {
+        left: -111% !important;
+    }
+}

@@ -1,0 +1,26 @@
+/*
++    App-specific LESS/CSS would go here, but to make your
++    application easier to maintain, you should try to
++    minimize the use of custom CSS.
++*/
+
+@import "globalVariables.less";
+::selection {
+    color: #000 !important;
+    background: #c6daff !important;
+}
+::-moz-selection {
+    color: #000 !important;
+    background: #c6daff !important;
+}
+
+// map styles
+.height100 {
+	height:100%;
+}
+.leaflet-control-attribution {
+	display:none;
+}
+.content, .map, .weatherDataCss, .loginViewSectbackground, .offerOverviewPanel {
+    min-height: 680px;
+}

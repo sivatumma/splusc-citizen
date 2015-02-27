@@ -1,0 +1,10 @@
+enyo.depends(
+	"menuPane.css",
+    "globalVariables.less",
+    "loginView.less",
+    "main.less",
+    "toolbar.less",
+    "views.less",
+    "weatherData.less",
+    "offersView.less"
+);

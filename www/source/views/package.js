@@ -1,0 +1,12 @@
+enyo.depends(
+	"main.js",
+	"mainMenuPane.js",
+	"login.js",
+	"leafletMap.js",
+	"weatherData.js",
+	"offers.js",
+	"offerDetailsView.js",
+	"offerDetailsPanel.js",
+	"offerDetailsViewPanel.js",
+	"toolbar.js"
+);

@@ -1,0 +1,59 @@
+{
+    "address_components": [{
+        "long_name": "300",
+        "short_name": "300",
+        "types": ["street_number"]
+    }, {
+        "long_name": "East Tasman Drive",
+        "short_name": "E Tasman Dr",
+        "types": ["route"]
+    }, {
+        "long_name": "North San Jose",
+        "short_name": "North San Jose",
+        "types": ["neighborhood", "political"]
+    }, {
+        "long_name": "San Jose",
+        "short_name": "San Jose",
+        "types": ["locality", "political"]
+    }, {
+        "long_name": "Santa Clara County",
+        "short_name": "Santa Clara County",
+        "types": ["administrative_area_level_2", "political"]
+    }, {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": ["administrative_area_level_1", "political"]
+    }, {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": ["country", "political"]
+    }, {
+        "long_name": "95134",
+        "short_name": "95134",
+        "types": ["postal_code"]
+    }, {
+        "long_name": "1404",
+        "short_name": "1404",
+        "types": ["postal_code_suffix"]
+    }],
+    "formatted_address": "300 East Tasman Drive, San Jose, CA 95134, USA",
+    "geometry": {
+        "location": {
+            "lat": 37.4116882,
+            "lng": -121.932149
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+            "northeast": {
+                "lat": 37.4130371802915,
+                "lng": -121.9308000197085
+            },
+            "southwest": {
+                "lat": 37.4103392197085,
+                "lng": -121.9334979802915
+            }
+        }
+    },
+    "partial_match": true,
+    "types": ["street_address"]
+}
